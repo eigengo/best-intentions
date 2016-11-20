@@ -1,0 +1,1128 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		454FDBCFA85EC6DB4A5034FE /* Pods_BestIntentions_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDA94A64C04C1A668AB181E /* Pods_BestIntentions_WatchKit_App.framework */; };
+		543CA2231DE200C900C23D4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543CA2221DE200C900C23D4C /* AppDelegate.swift */; };
+		543CA2251DE200C900C23D4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543CA2241DE200C900C23D4C /* ViewController.swift */; };
+		543CA2281DE200C900C23D4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543CA2261DE200C900C23D4C /* Main.storyboard */; };
+		543CA22A1DE200C900C23D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543CA2291DE200C900C23D4C /* Assets.xcassets */; };
+		543CA22D1DE200C900C23D4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543CA22B1DE200C900C23D4C /* LaunchScreen.storyboard */; };
+		543CA2381DE200C900C23D4C /* BestIntentionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543CA2371DE200C900C23D4C /* BestIntentionsTests.swift */; };
+		543CA2431DE200C900C23D4C /* BestIntentionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543CA2421DE200C900C23D4C /* BestIntentionsUITests.swift */; };
+		543CA2481DE200C900C23D4C /* BestIntentions WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 543CA2471DE200C900C23D4C /* BestIntentions WatchKit App.app */; };
+		543CA24E1DE200C900C23D4C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543CA24C1DE200C900C23D4C /* Interface.storyboard */; };
+		543CA2501DE200C900C23D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543CA24F1DE200C900C23D4C /* Assets.xcassets */; };
+		543CA2571DE200C900C23D4C /* BestIntentions WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 543CA2561DE200C900C23D4C /* BestIntentions WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		543CA25E1DE200CA00C23D4C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543CA25D1DE200CA00C23D4C /* InterfaceController.swift */; };
+		543CA2601DE200CA00C23D4C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543CA25F1DE200CA00C23D4C /* ExtensionDelegate.swift */; };
+		543CA2621DE200CA00C23D4C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543CA2611DE200CA00C23D4C /* NotificationController.swift */; };
+		543CA2641DE200CA00C23D4C /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543CA2631DE200CA00C23D4C /* ComplicationController.swift */; };
+		543CA2661DE200CA00C23D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543CA2651DE200CA00C23D4C /* Assets.xcassets */; };
+		647C5E67EFFAD75E5D5F8EAB /* Pods_BestIntentionsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B034B7FB973820939745DC /* Pods_BestIntentionsUITests.framework */; };
+		DB29575C78DBC6AB6D7E3812 /* Pods_BestIntentionsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3BC2A250F00D29BBE30ABB /* Pods_BestIntentionsTests.framework */; };
+		E8AE27BDF6776D2F77F5233D /* Pods_BestIntentions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB448511639064575FD48786 /* Pods_BestIntentions.framework */; };
+		EAFD3F478A72189416AD0968 /* Pods_BestIntentions_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF609EA245C8DBBC33A8E40 /* Pods_BestIntentions_WatchKit_Extension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		543CA2341DE200C900C23D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 543CA2171DE200C900C23D4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 543CA21E1DE200C900C23D4C;
+			remoteInfo = BestIntentions;
+		};
+		543CA23F1DE200C900C23D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 543CA2171DE200C900C23D4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 543CA21E1DE200C900C23D4C;
+			remoteInfo = BestIntentions;
+		};
+		543CA2491DE200C900C23D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 543CA2171DE200C900C23D4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 543CA2461DE200C900C23D4C;
+			remoteInfo = "BestIntentions WatchKit App";
+		};
+		543CA2581DE200C900C23D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 543CA2171DE200C900C23D4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 543CA2551DE200C900C23D4C;
+			remoteInfo = "BestIntentions WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		543CA26D1DE200CA00C23D4C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				543CA2571DE200C900C23D4C /* BestIntentions WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543CA2711DE200CA00C23D4C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				543CA2481DE200C900C23D4C /* BestIntentions WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03894181349F15838B9B083C /* Pods-BestIntentions WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestIntentions WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-BestIntentions WatchKit App/Pods-BestIntentions WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		1E0FE51ED9103235806F2B12 /* Pods-BestIntentionsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestIntentionsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BestIntentionsTests/Pods-BestIntentionsTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D3BC2A250F00D29BBE30ABB /* Pods_BestIntentionsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BestIntentionsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		484C0B2FC5C158220802BD4E /* Pods-BestIntentions WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestIntentions WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-BestIntentions WatchKit Extension/Pods-BestIntentions WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		543CA21F1DE200C900C23D4C /* BestIntentions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestIntentions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		543CA2221DE200C900C23D4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		543CA2241DE200C900C23D4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		543CA2271DE200C900C23D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		543CA2291DE200C900C23D4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		543CA22C1DE200C900C23D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		543CA22E1DE200C900C23D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		543CA2331DE200C900C23D4C /* BestIntentionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestIntentionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		543CA2371DE200C900C23D4C /* BestIntentionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestIntentionsTests.swift; sourceTree = "<group>"; };
+		543CA2391DE200C900C23D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		543CA23E1DE200C900C23D4C /* BestIntentionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestIntentionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		543CA2421DE200C900C23D4C /* BestIntentionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestIntentionsUITests.swift; sourceTree = "<group>"; };
+		543CA2441DE200C900C23D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		543CA2471DE200C900C23D4C /* BestIntentions WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BestIntentions WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		543CA24D1DE200C900C23D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		543CA24F1DE200C900C23D4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		543CA2511DE200C900C23D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		543CA2561DE200C900C23D4C /* BestIntentions WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BestIntentions WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		543CA25C1DE200CA00C23D4C /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		543CA25D1DE200CA00C23D4C /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		543CA25F1DE200CA00C23D4C /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		543CA2611DE200CA00C23D4C /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		543CA2631DE200CA00C23D4C /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		543CA2651DE200CA00C23D4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		543CA2671DE200CA00C23D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DDBA7086755236808CA7085 /* Pods-BestIntentions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestIntentions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BestIntentions/Pods-BestIntentions.debug.xcconfig"; sourceTree = "<group>"; };
+		808E6BD3FA42074A75629D2E /* Pods-BestIntentions WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestIntentions WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BestIntentions WatchKit App/Pods-BestIntentions WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		B9683F3F97287D60EFE65EBB /* Pods-BestIntentionsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestIntentionsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BestIntentionsUITests/Pods-BestIntentionsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C26C23005DA429809D281959 /* Pods-BestIntentionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestIntentionsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BestIntentionsTests/Pods-BestIntentionsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4C7A6F9A153C32BE5834983 /* Pods-BestIntentionsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestIntentionsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BestIntentionsUITests/Pods-BestIntentionsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7B034B7FB973820939745DC /* Pods_BestIntentionsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BestIntentionsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB448511639064575FD48786 /* Pods_BestIntentions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BestIntentions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF609EA245C8DBBC33A8E40 /* Pods_BestIntentions_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BestIntentions_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF069A3A34C5B5DAD1FF15A5 /* Pods-BestIntentions WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestIntentions WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BestIntentions WatchKit Extension/Pods-BestIntentions WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		EC685D73A884C7E1416E2ECC /* Pods-BestIntentions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestIntentions.release.xcconfig"; path = "Pods/Target Support Files/Pods-BestIntentions/Pods-BestIntentions.release.xcconfig"; sourceTree = "<group>"; };
+		FEDA94A64C04C1A668AB181E /* Pods_BestIntentions_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BestIntentions_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		543CA21C1DE200C900C23D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8AE27BDF6776D2F77F5233D /* Pods_BestIntentions.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543CA2301DE200C900C23D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB29575C78DBC6AB6D7E3812 /* Pods_BestIntentionsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543CA23B1DE200C900C23D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647C5E67EFFAD75E5D5F8EAB /* Pods_BestIntentionsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543CA2531DE200C900C23D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFD3F478A72189416AD0968 /* Pods_BestIntentions_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624272499691BE941937FAE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454FDBCFA85EC6DB4A5034FE /* Pods_BestIntentions_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E96592E18A33C7D63883670 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DDBA7086755236808CA7085 /* Pods-BestIntentions.debug.xcconfig */,
+				EC685D73A884C7E1416E2ECC /* Pods-BestIntentions.release.xcconfig */,
+				808E6BD3FA42074A75629D2E /* Pods-BestIntentions WatchKit App.debug.xcconfig */,
+				03894181349F15838B9B083C /* Pods-BestIntentions WatchKit App.release.xcconfig */,
+				CF069A3A34C5B5DAD1FF15A5 /* Pods-BestIntentions WatchKit Extension.debug.xcconfig */,
+				484C0B2FC5C158220802BD4E /* Pods-BestIntentions WatchKit Extension.release.xcconfig */,
+				C26C23005DA429809D281959 /* Pods-BestIntentionsTests.debug.xcconfig */,
+				1E0FE51ED9103235806F2B12 /* Pods-BestIntentionsTests.release.xcconfig */,
+				C4C7A6F9A153C32BE5834983 /* Pods-BestIntentionsUITests.debug.xcconfig */,
+				B9683F3F97287D60EFE65EBB /* Pods-BestIntentionsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		543CA2161DE200C900C23D4C = {
+			isa = PBXGroup;
+			children = (
+				543CA2211DE200C900C23D4C /* BestIntentions */,
+				543CA2361DE200C900C23D4C /* BestIntentionsTests */,
+				543CA2411DE200C900C23D4C /* BestIntentionsUITests */,
+				543CA24B1DE200C900C23D4C /* BestIntentions WatchKit App */,
+				543CA25A1DE200CA00C23D4C /* BestIntentions WatchKit Extension */,
+				543CA2201DE200C900C23D4C /* Products */,
+				3E96592E18A33C7D63883670 /* Pods */,
+				85A6163AE48C107121F561DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		543CA2201DE200C900C23D4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				543CA21F1DE200C900C23D4C /* BestIntentions.app */,
+				543CA2331DE200C900C23D4C /* BestIntentionsTests.xctest */,
+				543CA23E1DE200C900C23D4C /* BestIntentionsUITests.xctest */,
+				543CA2471DE200C900C23D4C /* BestIntentions WatchKit App.app */,
+				543CA2561DE200C900C23D4C /* BestIntentions WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		543CA2211DE200C900C23D4C /* BestIntentions */ = {
+			isa = PBXGroup;
+			children = (
+				543CA2221DE200C900C23D4C /* AppDelegate.swift */,
+				543CA2241DE200C900C23D4C /* ViewController.swift */,
+				543CA2261DE200C900C23D4C /* Main.storyboard */,
+				543CA2291DE200C900C23D4C /* Assets.xcassets */,
+				543CA22B1DE200C900C23D4C /* LaunchScreen.storyboard */,
+				543CA22E1DE200C900C23D4C /* Info.plist */,
+			);
+			path = BestIntentions;
+			sourceTree = "<group>";
+		};
+		543CA2361DE200C900C23D4C /* BestIntentionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				543CA2371DE200C900C23D4C /* BestIntentionsTests.swift */,
+				543CA2391DE200C900C23D4C /* Info.plist */,
+			);
+			path = BestIntentionsTests;
+			sourceTree = "<group>";
+		};
+		543CA2411DE200C900C23D4C /* BestIntentionsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				543CA2421DE200C900C23D4C /* BestIntentionsUITests.swift */,
+				543CA2441DE200C900C23D4C /* Info.plist */,
+			);
+			path = BestIntentionsUITests;
+			sourceTree = "<group>";
+		};
+		543CA24B1DE200C900C23D4C /* BestIntentions WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				543CA24C1DE200C900C23D4C /* Interface.storyboard */,
+				543CA24F1DE200C900C23D4C /* Assets.xcassets */,
+				543CA2511DE200C900C23D4C /* Info.plist */,
+			);
+			path = "BestIntentions WatchKit App";
+			sourceTree = "<group>";
+		};
+		543CA25A1DE200CA00C23D4C /* BestIntentions WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				543CA25D1DE200CA00C23D4C /* InterfaceController.swift */,
+				543CA25F1DE200CA00C23D4C /* ExtensionDelegate.swift */,
+				543CA2611DE200CA00C23D4C /* NotificationController.swift */,
+				543CA2631DE200CA00C23D4C /* ComplicationController.swift */,
+				543CA2651DE200CA00C23D4C /* Assets.xcassets */,
+				543CA2671DE200CA00C23D4C /* Info.plist */,
+				543CA25B1DE200CA00C23D4C /* Supporting Files */,
+			);
+			path = "BestIntentions WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		543CA25B1DE200CA00C23D4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				543CA25C1DE200CA00C23D4C /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85A6163AE48C107121F561DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB448511639064575FD48786 /* Pods_BestIntentions.framework */,
+				FEDA94A64C04C1A668AB181E /* Pods_BestIntentions_WatchKit_App.framework */,
+				CCF609EA245C8DBBC33A8E40 /* Pods_BestIntentions_WatchKit_Extension.framework */,
+				2D3BC2A250F00D29BBE30ABB /* Pods_BestIntentionsTests.framework */,
+				C7B034B7FB973820939745DC /* Pods_BestIntentionsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		543CA21E1DE200C900C23D4C /* BestIntentions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543CA2721DE200CA00C23D4C /* Build configuration list for PBXNativeTarget "BestIntentions" */;
+			buildPhases = (
+				C19D5C91A1FB06376982D45D /* [CP] Check Pods Manifest.lock */,
+				543CA21B1DE200C900C23D4C /* Sources */,
+				543CA21C1DE200C900C23D4C /* Frameworks */,
+				543CA21D1DE200C900C23D4C /* Resources */,
+				543CA2711DE200CA00C23D4C /* Embed Watch Content */,
+				9445948206A8AFF4614A6B9C /* [CP] Embed Pods Frameworks */,
+				36F7DD31A76463D3D9E264C8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				543CA24A1DE200C900C23D4C /* PBXTargetDependency */,
+			);
+			name = BestIntentions;
+			productName = BestIntentions;
+			productReference = 543CA21F1DE200C900C23D4C /* BestIntentions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		543CA2321DE200C900C23D4C /* BestIntentionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543CA2751DE200CA00C23D4C /* Build configuration list for PBXNativeTarget "BestIntentionsTests" */;
+			buildPhases = (
+				D1702C507977A4E15A080C00 /* [CP] Check Pods Manifest.lock */,
+				543CA22F1DE200C900C23D4C /* Sources */,
+				543CA2301DE200C900C23D4C /* Frameworks */,
+				543CA2311DE200C900C23D4C /* Resources */,
+				6025549833EC25BD6DC1643E /* [CP] Embed Pods Frameworks */,
+				789F3B3B5947D7D6B0E81CF0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				543CA2351DE200C900C23D4C /* PBXTargetDependency */,
+			);
+			name = BestIntentionsTests;
+			productName = BestIntentionsTests;
+			productReference = 543CA2331DE200C900C23D4C /* BestIntentionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		543CA23D1DE200C900C23D4C /* BestIntentionsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543CA2781DE200CA00C23D4C /* Build configuration list for PBXNativeTarget "BestIntentionsUITests" */;
+			buildPhases = (
+				EBCE6A2896FA90CC3BF6A272 /* [CP] Check Pods Manifest.lock */,
+				543CA23A1DE200C900C23D4C /* Sources */,
+				543CA23B1DE200C900C23D4C /* Frameworks */,
+				543CA23C1DE200C900C23D4C /* Resources */,
+				9E13750BF61024512FE6EBA0 /* [CP] Embed Pods Frameworks */,
+				94149030E24BAEF215E01271 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				543CA2401DE200C900C23D4C /* PBXTargetDependency */,
+			);
+			name = BestIntentionsUITests;
+			productName = BestIntentionsUITests;
+			productReference = 543CA23E1DE200C900C23D4C /* BestIntentionsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		543CA2461DE200C900C23D4C /* BestIntentions WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543CA26E1DE200CA00C23D4C /* Build configuration list for PBXNativeTarget "BestIntentions WatchKit App" */;
+			buildPhases = (
+				F69D6C62B3F1BA765BD345E5 /* [CP] Check Pods Manifest.lock */,
+				543CA2451DE200C900C23D4C /* Resources */,
+				543CA26D1DE200CA00C23D4C /* Embed App Extensions */,
+				624272499691BE941937FAE8 /* Frameworks */,
+				D424FA382259BBED06E5F85B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				543CA2591DE200C900C23D4C /* PBXTargetDependency */,
+			);
+			name = "BestIntentions WatchKit App";
+			productName = "BestIntentions WatchKit App";
+			productReference = 543CA2471DE200C900C23D4C /* BestIntentions WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		543CA2551DE200C900C23D4C /* BestIntentions WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543CA26A1DE200CA00C23D4C /* Build configuration list for PBXNativeTarget "BestIntentions WatchKit Extension" */;
+			buildPhases = (
+				CE1B50132BCF7F5CAD6ADD7E /* [CP] Check Pods Manifest.lock */,
+				543CA2521DE200C900C23D4C /* Sources */,
+				543CA2531DE200C900C23D4C /* Frameworks */,
+				543CA2541DE200C900C23D4C /* Resources */,
+				7677999E5C7D7B601526C138 /* [CP] Embed Pods Frameworks */,
+				E510B10CA883B2EE75FAFC5B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BestIntentions WatchKit Extension";
+			productName = "BestIntentions WatchKit Extension";
+			productReference = 543CA2561DE200C900C23D4C /* BestIntentions WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		543CA2171DE200C900C23D4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Jan Machacek";
+				TargetAttributes = {
+					543CA21E1DE200C900C23D4C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 33V7538L4A;
+						ProvisioningStyle = Automatic;
+					};
+					543CA2321DE200C900C23D4C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 33V7538L4A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 543CA21E1DE200C900C23D4C;
+					};
+					543CA23D1DE200C900C23D4C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 33V7538L4A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 543CA21E1DE200C900C23D4C;
+					};
+					543CA2461DE200C900C23D4C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 33V7538L4A;
+						ProvisioningStyle = Automatic;
+					};
+					543CA2551DE200C900C23D4C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 33V7538L4A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 543CA21A1DE200C900C23D4C /* Build configuration list for PBXProject "BestIntentions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 543CA2161DE200C900C23D4C;
+			productRefGroup = 543CA2201DE200C900C23D4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				543CA21E1DE200C900C23D4C /* BestIntentions */,
+				543CA2321DE200C900C23D4C /* BestIntentionsTests */,
+				543CA23D1DE200C900C23D4C /* BestIntentionsUITests */,
+				543CA2461DE200C900C23D4C /* BestIntentions WatchKit App */,
+				543CA2551DE200C900C23D4C /* BestIntentions WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		543CA21D1DE200C900C23D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543CA22D1DE200C900C23D4C /* LaunchScreen.storyboard in Resources */,
+				543CA22A1DE200C900C23D4C /* Assets.xcassets in Resources */,
+				543CA2281DE200C900C23D4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543CA2311DE200C900C23D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543CA23C1DE200C900C23D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543CA2451DE200C900C23D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543CA2501DE200C900C23D4C /* Assets.xcassets in Resources */,
+				543CA24E1DE200C900C23D4C /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543CA2541DE200C900C23D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543CA2661DE200CA00C23D4C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36F7DD31A76463D3D9E264C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BestIntentions/Pods-BestIntentions-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6025549833EC25BD6DC1643E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BestIntentionsTests/Pods-BestIntentionsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7677999E5C7D7B601526C138 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BestIntentions WatchKit Extension/Pods-BestIntentions WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		789F3B3B5947D7D6B0E81CF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BestIntentionsTests/Pods-BestIntentionsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94149030E24BAEF215E01271 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BestIntentionsUITests/Pods-BestIntentionsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9445948206A8AFF4614A6B9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BestIntentions/Pods-BestIntentions-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E13750BF61024512FE6EBA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BestIntentionsUITests/Pods-BestIntentionsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C19D5C91A1FB06376982D45D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE1B50132BCF7F5CAD6ADD7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1702C507977A4E15A080C00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D424FA382259BBED06E5F85B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BestIntentions WatchKit App/Pods-BestIntentions WatchKit App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E510B10CA883B2EE75FAFC5B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BestIntentions WatchKit Extension/Pods-BestIntentions WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBCE6A2896FA90CC3BF6A272 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F69D6C62B3F1BA765BD345E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		543CA21B1DE200C900C23D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543CA2251DE200C900C23D4C /* ViewController.swift in Sources */,
+				543CA2231DE200C900C23D4C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543CA22F1DE200C900C23D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543CA2381DE200C900C23D4C /* BestIntentionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543CA23A1DE200C900C23D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543CA2431DE200C900C23D4C /* BestIntentionsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543CA2521DE200C900C23D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543CA2621DE200CA00C23D4C /* NotificationController.swift in Sources */,
+				543CA2641DE200CA00C23D4C /* ComplicationController.swift in Sources */,
+				543CA2601DE200CA00C23D4C /* ExtensionDelegate.swift in Sources */,
+				543CA25E1DE200CA00C23D4C /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		543CA2351DE200C900C23D4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 543CA21E1DE200C900C23D4C /* BestIntentions */;
+			targetProxy = 543CA2341DE200C900C23D4C /* PBXContainerItemProxy */;
+		};
+		543CA2401DE200C900C23D4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 543CA21E1DE200C900C23D4C /* BestIntentions */;
+			targetProxy = 543CA23F1DE200C900C23D4C /* PBXContainerItemProxy */;
+		};
+		543CA24A1DE200C900C23D4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 543CA2461DE200C900C23D4C /* BestIntentions WatchKit App */;
+			targetProxy = 543CA2491DE200C900C23D4C /* PBXContainerItemProxy */;
+		};
+		543CA2591DE200C900C23D4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 543CA2551DE200C900C23D4C /* BestIntentions WatchKit Extension */;
+			targetProxy = 543CA2581DE200C900C23D4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		543CA2261DE200C900C23D4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				543CA2271DE200C900C23D4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		543CA22B1DE200C900C23D4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				543CA22C1DE200C900C23D4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		543CA24C1DE200C900C23D4C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				543CA24D1DE200C900C23D4C /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		543CA2681DE200CA00C23D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		543CA2691DE200CA00C23D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		543CA26B1DE200CA00C23D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF069A3A34C5B5DAD1FF15A5 /* Pods-BestIntentions WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 33V7538L4A;
+				INFOPLIST_FILE = "BestIntentions WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eigengo.BestIntentions.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		543CA26C1DE200CA00C23D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 484C0B2FC5C158220802BD4E /* Pods-BestIntentions WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 33V7538L4A;
+				INFOPLIST_FILE = "BestIntentions WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eigengo.BestIntentions.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		543CA26F1DE200CA00C23D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 808E6BD3FA42074A75629D2E /* Pods-BestIntentions WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33V7538L4A;
+				IBSC_MODULE = BestIntentions_WatchKit_Extension;
+				INFOPLIST_FILE = "BestIntentions WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eigengo.BestIntentions.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		543CA2701DE200CA00C23D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03894181349F15838B9B083C /* Pods-BestIntentions WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33V7538L4A;
+				IBSC_MODULE = BestIntentions_WatchKit_Extension;
+				INFOPLIST_FILE = "BestIntentions WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eigengo.BestIntentions.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		543CA2731DE200CA00C23D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DDBA7086755236808CA7085 /* Pods-BestIntentions.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33V7538L4A;
+				INFOPLIST_FILE = BestIntentions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eigengo.BestIntentions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		543CA2741DE200CA00C23D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC685D73A884C7E1416E2ECC /* Pods-BestIntentions.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33V7538L4A;
+				INFOPLIST_FILE = BestIntentions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eigengo.BestIntentions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		543CA2761DE200CA00C23D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C26C23005DA429809D281959 /* Pods-BestIntentionsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 33V7538L4A;
+				INFOPLIST_FILE = BestIntentionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eigengo.BestIntentionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BestIntentions.app/BestIntentions";
+			};
+			name = Debug;
+		};
+		543CA2771DE200CA00C23D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E0FE51ED9103235806F2B12 /* Pods-BestIntentionsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 33V7538L4A;
+				INFOPLIST_FILE = BestIntentionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eigengo.BestIntentionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BestIntentions.app/BestIntentions";
+			};
+			name = Release;
+		};
+		543CA2791DE200CA00C23D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4C7A6F9A153C32BE5834983 /* Pods-BestIntentionsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 33V7538L4A;
+				INFOPLIST_FILE = BestIntentionsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eigengo.BestIntentionsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BestIntentions;
+			};
+			name = Debug;
+		};
+		543CA27A1DE200CA00C23D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9683F3F97287D60EFE65EBB /* Pods-BestIntentionsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 33V7538L4A;
+				INFOPLIST_FILE = BestIntentionsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eigengo.BestIntentionsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BestIntentions;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		543CA21A1DE200C900C23D4C /* Build configuration list for PBXProject "BestIntentions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543CA2681DE200CA00C23D4C /* Debug */,
+				543CA2691DE200CA00C23D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543CA26A1DE200CA00C23D4C /* Build configuration list for PBXNativeTarget "BestIntentions WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543CA26B1DE200CA00C23D4C /* Debug */,
+				543CA26C1DE200CA00C23D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543CA26E1DE200CA00C23D4C /* Build configuration list for PBXNativeTarget "BestIntentions WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543CA26F1DE200CA00C23D4C /* Debug */,
+				543CA2701DE200CA00C23D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543CA2721DE200CA00C23D4C /* Build configuration list for PBXNativeTarget "BestIntentions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543CA2731DE200CA00C23D4C /* Debug */,
+				543CA2741DE200CA00C23D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543CA2751DE200CA00C23D4C /* Build configuration list for PBXNativeTarget "BestIntentionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543CA2761DE200CA00C23D4C /* Debug */,
+				543CA2771DE200CA00C23D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543CA2781DE200CA00C23D4C /* Build configuration list for PBXNativeTarget "BestIntentionsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				543CA2791DE200CA00C23D4C /* Debug */,
+				543CA27A1DE200CA00C23D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 543CA2171DE200C900C23D4C /* Project object */;
+}

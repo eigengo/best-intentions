@@ -11,7 +11,9 @@
 		540A46FC1DEAFC1300E542FD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A46FA1DEAFC0800E542FD /* Model.swift */; };
 		540A46FE1DEB349900E542FD /* MarkovChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A46FD1DEB349900E542FD /* MarkovChain.swift */; };
 		540A46FF1DEB349900E542FD /* MarkovChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A46FD1DEB349900E542FD /* MarkovChain.swift */; };
-		540A47071DEB392400E542FD /* BestIntentionsFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A47061DEB392400E542FD /* BestIntentionsFrameworkTests.swift */; };
+		540A47071DEB392400E542FD /* MarkovChainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A47061DEB392400E542FD /* MarkovChainTests.swift */; };
+		540A470C1DEC324C00E542FD /* MarkovChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A46FD1DEB349900E542FD /* MarkovChain.swift */; };
+		540A470D1DEC324F00E542FD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A46FA1DEAFC0800E542FD /* Model.swift */; };
 		543CA2231DE200C900C23D4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543CA2221DE200C900C23D4C /* AppDelegate.swift */; };
 		543CA2251DE200C900C23D4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543CA2241DE200C900C23D4C /* ViewController.swift */; };
 		543CA2281DE200C900C23D4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543CA2261DE200C900C23D4C /* Main.storyboard */; };
@@ -28,12 +30,17 @@
 		543CA2621DE200CA00C23D4C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543CA2611DE200CA00C23D4C /* NotificationController.swift */; };
 		543CA2641DE200CA00C23D4C /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543CA2631DE200CA00C23D4C /* ComplicationController.swift */; };
 		543CA2661DE200CA00C23D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543CA2651DE200CA00C23D4C /* Assets.xcassets */; };
-		647C5E67EFFAD75E5D5F8EAB /* Pods_BestIntentionsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B034B7FB973820939745DC /* Pods_BestIntentionsUITests.framework */; };
 		C7D33D71C3F53CE6971F7777 /* libPods-BestIntentions WatchKit App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A14C639D4DCB8A6A880BBA /* libPods-BestIntentions WatchKit App.a */; };
-		DB29575C78DBC6AB6D7E3812 /* Pods_BestIntentionsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3BC2A250F00D29BBE30ABB /* Pods_BestIntentionsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		540A470E1DEC32DD00E542FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 543CA2171DE200C900C23D4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 543CA21E1DE200C900C23D4C;
+			remoteInfo = BestIntentions;
+		};
 		543CA2341DE200C900C23D4C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 543CA2171DE200C900C23D4C /* Project object */;
@@ -97,7 +104,7 @@
 		540A46FA1DEAFC0800E542FD /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = BestIntentionsFramework/Model.swift; sourceTree = "<group>"; };
 		540A46FD1DEB349900E542FD /* MarkovChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarkovChain.swift; path = BestIntentionsFramework/MarkovChain.swift; sourceTree = "<group>"; };
 		540A47041DEB392400E542FD /* BestIntentionsFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestIntentionsFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		540A47061DEB392400E542FD /* BestIntentionsFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestIntentionsFrameworkTests.swift; sourceTree = "<group>"; };
+		540A47061DEB392400E542FD /* MarkovChainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkovChainTests.swift; sourceTree = "<group>"; };
 		540A47081DEB392400E542FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		543CA21F1DE200C900C23D4C /* BestIntentions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestIntentions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		543CA2221DE200C900C23D4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -156,7 +163,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB29575C78DBC6AB6D7E3812 /* Pods_BestIntentionsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +170,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				647C5E67EFFAD75E5D5F8EAB /* Pods_BestIntentionsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +220,7 @@
 		540A47051DEB392400E542FD /* BestIntentionsFrameworkTests */ = {
 			isa = PBXGroup;
 			children = (
-				540A47061DEB392400E542FD /* BestIntentionsFrameworkTests.swift */,
+				540A47061DEB392400E542FD /* MarkovChainTests.swift */,
 				540A47081DEB392400E542FD /* Info.plist */,
 			);
 			path = BestIntentionsFrameworkTests;
@@ -339,6 +344,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				540A470F1DEC32DD00E542FD /* PBXTargetDependency */,
 			);
 			name = BestIntentionsFrameworkTests;
 			productName = BestIntentionsFrameworkTests;
@@ -463,6 +469,7 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 33V7538L4A;
 						ProvisioningStyle = Automatic;
+						TestTargetID = 543CA21E1DE200C900C23D4C;
 					};
 					543CA21E1DE200C900C23D4C = {
 						CreatedOnToolsVersion = 8.1;
@@ -785,7 +792,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				540A47071DEB392400E542FD /* BestIntentionsFrameworkTests.swift in Sources */,
+				540A470D1DEC324F00E542FD /* Model.swift in Sources */,
+				540A47071DEB392400E542FD /* MarkovChainTests.swift in Sources */,
+				540A470C1DEC324C00E542FD /* MarkovChain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -832,6 +841,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		540A470F1DEC32DD00E542FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 543CA21E1DE200C900C23D4C /* BestIntentions */;
+			targetProxy = 540A470E1DEC32DD00E542FD /* PBXContainerItemProxy */;
+		};
 		543CA2351DE200C900C23D4C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 543CA21E1DE200C900C23D4C /* BestIntentions */;
@@ -885,24 +899,28 @@
 		540A470A1DEB392400E542FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 33V7538L4A;
 				INFOPLIST_FILE = BestIntentionsFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eigengo.BestIntentionsFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BestIntentions.app/BestIntentions";
 			};
 			name = Debug;
 		};
 		540A470B1DEB392400E542FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 33V7538L4A;
 				INFOPLIST_FILE = BestIntentionsFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eigengo.BestIntentionsFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BestIntentions.app/BestIntentions";
 			};
 			name = Release;
 		};
@@ -1145,7 +1163,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eigengo.BestIntentionsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 				TEST_TARGET_NAME = BestIntentions;
 			};
 			name = Debug;
@@ -1160,7 +1178,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eigengo.BestIntentionsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 				TEST_TARGET_NAME = BestIntentions;
 			};
 			name = Release;

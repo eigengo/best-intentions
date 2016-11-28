@@ -237,12 +237,12 @@
 		543CA2161DE200C900C23D4C = {
 			isa = PBXGroup;
 			children = (
-				540A46F91DEAFBE600E542FD /* BestIntentionsFramework */,
 				543CA2211DE200C900C23D4C /* BestIntentions */,
 				543CA2361DE200C900C23D4C /* BestIntentionsTests */,
 				543CA2411DE200C900C23D4C /* BestIntentionsUITests */,
 				543CA24B1DE200C900C23D4C /* BestIntentions WatchKit App */,
 				543CA25A1DE200CA00C23D4C /* BestIntentions WatchKit Extension */,
+				540A46F91DEAFBE600E542FD /* BestIntentionsFramework */,
 				540A47051DEB392400E542FD /* BestIntentionsFrameworkTests */,
 				543CA2201DE200C900C23D4C /* Products */,
 				3E96592E18A33C7D63883670 /* Pods */,

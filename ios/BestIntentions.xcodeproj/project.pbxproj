@@ -30,7 +30,11 @@
 		543CA2621DE200CA00C23D4C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543CA2611DE200CA00C23D4C /* NotificationController.swift */; };
 		543CA2641DE200CA00C23D4C /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543CA2631DE200CA00C23D4C /* ComplicationController.swift */; };
 		543CA2661DE200CA00C23D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543CA2651DE200CA00C23D4C /* Assets.xcassets */; };
+		78E2588C2E983EB06B36A636 /* Pods_BestIntentionsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3BC2A250F00D29BBE30ABB /* Pods_BestIntentionsTests.framework */; };
+		A8DE22FC4AFD41EE155398B8 /* Pods_BestIntentionsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B034B7FB973820939745DC /* Pods_BestIntentionsUITests.framework */; };
+		B1C1A552208CEFFA772C98C6 /* Pods_BestIntentions_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13990D6CE01BD16F7B5EE11 /* Pods_BestIntentions_WatchKit_Extension.framework */; };
 		C7D33D71C3F53CE6971F7777 /* libPods-BestIntentions WatchKit App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A14C639D4DCB8A6A880BBA /* libPods-BestIntentions WatchKit App.a */; };
+		ECBA5BDC2507BAC642192688 /* Pods_BestIntentions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB448511639064575FD48786 /* Pods_BestIntentions.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -156,6 +160,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECBA5BDC2507BAC642192688 /* Pods_BestIntentions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78E2588C2E983EB06B36A636 /* Pods_BestIntentionsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +176,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8DE22FC4AFD41EE155398B8 /* Pods_BestIntentionsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +184,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1C1A552208CEFFA772C98C6 /* Pods_BestIntentions_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1059,7 +1067,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 808E6BD3FA42074A75629D2E /* Pods-BestIntentions WatchKit App.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 33V7538L4A;
 				IBSC_MODULE = BestIntentions_WatchKit_Extension;
@@ -1078,7 +1086,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 03894181349F15838B9B083C /* Pods-BestIntentions WatchKit App.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 33V7538L4A;
 				IBSC_MODULE = BestIntentions_WatchKit_Extension;
@@ -1125,7 +1133,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C26C23005DA429809D281959 /* Pods-BestIntentionsTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 33V7538L4A;
 				INFOPLIST_FILE = BestIntentionsTests/Info.plist;
@@ -1141,7 +1149,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1E0FE51ED9103235806F2B12 /* Pods-BestIntentionsTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 33V7538L4A;
 				INFOPLIST_FILE = BestIntentionsTests/Info.plist;
@@ -1157,7 +1165,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4C7A6F9A153C32BE5834983 /* Pods-BestIntentionsUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = 33V7538L4A;
 				INFOPLIST_FILE = BestIntentionsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1172,7 +1180,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B9683F3F97287D60EFE65EBB /* Pods-BestIntentionsUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = 33V7538L4A;
 				INFOPLIST_FILE = BestIntentionsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1193,6 +1201,7 @@
 				540A470B1DEB392400E542FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		543CA21A1DE200C900C23D4C /* Build configuration list for PBXProject "BestIntentions" */ = {
 			isa = XCConfigurationList;

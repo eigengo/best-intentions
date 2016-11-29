@@ -17,18 +17,16 @@
  *
  */
 import Foundation
+import CoreLocation
 
 protocol VicePredictor {
-    typealias Tip = String
 
-    func topVices(at: Date) -> [(Vice, Tip)]
+
 
 }
 
 protocol ViceTimeline {
 
-    func submit(vice: Vice)
+    func add(vice: Vice, at: Date, features: Features) -> Void
 
 }
-
-

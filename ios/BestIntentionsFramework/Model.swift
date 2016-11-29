@@ -20,3 +20,28 @@
 struct Vice {
     var name: String
 }
+
+struct Weather {
+    enum Overall {
+        case Sun
+        case Cloud
+        case Rain
+        case Snow
+    }
+
+    var temperature: Measurement<UnitTemperature>
+}
+
+enum DayMood {
+    case Free
+    case Normal
+    case Busy
+    case VeryBusy
+}
+
+import CoreLocation
+protocol LocationCoordinate {
+    var latitude: CLLocationDegrees { get }
+    var longitude: CLLocationDegrees { get }
+}
+

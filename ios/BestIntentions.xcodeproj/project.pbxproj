@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		540A46FB1DEAFC0800E542FD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A46FA1DEAFC0800E542FD /* Model.swift */; };
-		540A46FC1DEAFC1300E542FD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A46FA1DEAFC0800E542FD /* Model.swift */; };
+		540A46FB1DEAFC0800E542FD /* Vice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A46FA1DEAFC0800E542FD /* Vice.swift */; };
+		540A46FC1DEAFC1300E542FD /* Vice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A46FA1DEAFC0800E542FD /* Vice.swift */; };
 		540A46FE1DEB349900E542FD /* MarkovChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A46FD1DEB349900E542FD /* MarkovChain.swift */; };
 		540A46FF1DEB349900E542FD /* MarkovChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A46FD1DEB349900E542FD /* MarkovChain.swift */; };
 		540A47071DEB392400E542FD /* MarkovChainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A47061DEB392400E542FD /* MarkovChainTests.swift */; };
 		540A470C1DEC324C00E542FD /* MarkovChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A46FD1DEB349900E542FD /* MarkovChain.swift */; };
-		540A470D1DEC324F00E542FD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A46FA1DEAFC0800E542FD /* Model.swift */; };
+		540A470D1DEC324F00E542FD /* Vice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A46FA1DEAFC0800E542FD /* Vice.swift */; };
 		543CA2231DE200C900C23D4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543CA2221DE200C900C23D4C /* AppDelegate.swift */; };
 		543CA2251DE200C900C23D4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543CA2241DE200C900C23D4C /* ViewController.swift */; };
 		543CA2281DE200C900C23D4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543CA2261DE200C900C23D4C /* Main.storyboard */; };
@@ -34,6 +34,9 @@
 		A8DE22FC4AFD41EE155398B8 /* Pods_BestIntentionsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B034B7FB973820939745DC /* Pods_BestIntentionsUITests.framework */; };
 		B1C1A552208CEFFA772C98C6 /* Pods_BestIntentions_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13990D6CE01BD16F7B5EE11 /* Pods_BestIntentions_WatchKit_Extension.framework */; };
 		C7D33D71C3F53CE6971F7777 /* libPods-BestIntentions WatchKit App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A14C639D4DCB8A6A880BBA /* libPods-BestIntentions WatchKit App.a */; };
+		E0E105785C45D6FA38532791 /* ViceServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E101C180FE011A81AAE9BC /* ViceServices.swift */; };
+		E0E108DA5C932B9BEB7BE89B /* ViceServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E101C180FE011A81AAE9BC /* ViceServices.swift */; };
+		E0E10D333E396060AD5C2DB1 /* ViceServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E101C180FE011A81AAE9BC /* ViceServices.swift */; };
 		ECBA5BDC2507BAC642192688 /* Pods_BestIntentions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB448511639064575FD48786 /* Pods_BestIntentions.framework */; };
 /* End PBXBuildFile section */
 
@@ -105,7 +108,7 @@
 		1E0FE51ED9103235806F2B12 /* Pods-BestIntentionsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestIntentionsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BestIntentionsTests/Pods-BestIntentionsTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D3BC2A250F00D29BBE30ABB /* Pods_BestIntentionsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BestIntentionsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		484C0B2FC5C158220802BD4E /* Pods-BestIntentions WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestIntentions WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-BestIntentions WatchKit Extension/Pods-BestIntentions WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
-		540A46FA1DEAFC0800E542FD /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = BestIntentionsFramework/Model.swift; sourceTree = "<group>"; };
+		540A46FA1DEAFC0800E542FD /* Vice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vice.swift; path = BestIntentionsFramework/Vice.swift; sourceTree = "<group>"; };
 		540A46FD1DEB349900E542FD /* MarkovChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarkovChain.swift; path = BestIntentionsFramework/MarkovChain.swift; sourceTree = "<group>"; };
 		540A47041DEB392400E542FD /* BestIntentionsFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestIntentionsFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		540A47061DEB392400E542FD /* MarkovChainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkovChainTests.swift; sourceTree = "<group>"; };
@@ -145,6 +148,7 @@
 		CF069A3A34C5B5DAD1FF15A5 /* Pods-BestIntentions WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestIntentions WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BestIntentions WatchKit Extension/Pods-BestIntentions WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		D13990D6CE01BD16F7B5EE11 /* Pods_BestIntentions_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BestIntentions_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A14C639D4DCB8A6A880BBA /* libPods-BestIntentions WatchKit App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BestIntentions WatchKit App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E101C180FE011A81AAE9BC /* ViceServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViceServices.swift; sourceTree = "<group>"; };
 		EC685D73A884C7E1416E2ECC /* Pods-BestIntentions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestIntentions.release.xcconfig"; path = "Pods/Target Support Files/Pods-BestIntentions/Pods-BestIntentions.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -219,8 +223,9 @@
 		540A46F91DEAFBE600E542FD /* BestIntentionsFramework */ = {
 			isa = PBXGroup;
 			children = (
-				540A46FA1DEAFC0800E542FD /* Model.swift */,
+				540A46FA1DEAFC0800E542FD /* Vice.swift */,
 				540A46FD1DEB349900E542FD /* MarkovChain.swift */,
+				E0E101C180FE011A81AAE9BC /* ViceServices.swift */,
 			);
 			name = BestIntentionsFramework;
 			sourceTree = "<group>";
@@ -800,9 +805,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				540A470D1DEC324F00E542FD /* Model.swift in Sources */,
+				540A470D1DEC324F00E542FD /* Vice.swift in Sources */,
 				540A47071DEB392400E542FD /* MarkovChainTests.swift in Sources */,
 				540A470C1DEC324C00E542FD /* MarkovChain.swift in Sources */,
+				E0E108DA5C932B9BEB7BE89B /* ViceServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -810,10 +816,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				540A46FB1DEAFC0800E542FD /* Model.swift in Sources */,
+				540A46FB1DEAFC0800E542FD /* Vice.swift in Sources */,
 				543CA2251DE200C900C23D4C /* ViewController.swift in Sources */,
 				543CA2231DE200C900C23D4C /* AppDelegate.swift in Sources */,
 				540A46FE1DEB349900E542FD /* MarkovChain.swift in Sources */,
+				E0E10D333E396060AD5C2DB1 /* ViceServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -837,12 +844,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				540A46FC1DEAFC1300E542FD /* Model.swift in Sources */,
+				540A46FC1DEAFC1300E542FD /* Vice.swift in Sources */,
 				543CA2621DE200CA00C23D4C /* NotificationController.swift in Sources */,
 				543CA2641DE200CA00C23D4C /* ComplicationController.swift in Sources */,
 				543CA2601DE200CA00C23D4C /* ExtensionDelegate.swift in Sources */,
 				543CA25E1DE200CA00C23D4C /* InterfaceController.swift in Sources */,
 				540A46FF1DEB349900E542FD /* MarkovChain.swift in Sources */,
+				E0E105785C45D6FA38532791 /* ViceServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

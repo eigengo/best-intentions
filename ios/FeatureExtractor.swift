@@ -16,33 +16,13 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-struct Vice {
-    var name: String
-}
+import Foundation
+import HealthKit
 
-struct Weather {
-    enum Overall {
-        case sun
-        case cloud
-        case rain
-        case snow
-        case other
-    }
+typealias Features = [Float]
 
-    var overall: Overall
-    var temperature: Measurement<UnitTemperature>
-}
+protocol FeatureExtractor {
 
-enum Mood {
-    case free
-    case normal
-    case busy
-    case veryBusy
-    case other
-}
+    var features: Features { get }
 
-import CoreLocation
-protocol LocationCoordinate {
-    var latitude: CLLocationDegrees { get }
-    var longitude: CLLocationDegrees { get }
 }

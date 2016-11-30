@@ -34,11 +34,13 @@
 		A8DE22FC4AFD41EE155398B8 /* Pods_BestIntentionsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B034B7FB973820939745DC /* Pods_BestIntentionsUITests.framework */; };
 		B1C1A552208CEFFA772C98C6 /* Pods_BestIntentions_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13990D6CE01BD16F7B5EE11 /* Pods_BestIntentions_WatchKit_Extension.framework */; };
 		C7D33D71C3F53CE6971F7777 /* libPods-BestIntentions WatchKit App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A14C639D4DCB8A6A880BBA /* libPods-BestIntentions WatchKit App.a */; };
-		E0E102C1D8511B8F3B1C1F65 /* ViceFeatureExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E10DE4743AB963942E0BE7 /* ViceFeatureExtractor.swift */; };
-		E0E1050034480D070C699161 /* ViceFeatureExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E10DE4743AB963942E0BE7 /* ViceFeatureExtractor.swift */; };
+		E0E102C1D8511B8F3B1C1F65 /* FeatureExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E10DE4743AB963942E0BE7 /* FeatureExtractor.swift */; };
+		E0E1050034480D070C699161 /* FeatureExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E10DE4743AB963942E0BE7 /* FeatureExtractor.swift */; };
 		E0E105785C45D6FA38532791 /* ViceServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E101C180FE011A81AAE9BC /* ViceServices.swift */; };
 		E0E108DA5C932B9BEB7BE89B /* ViceServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E101C180FE011A81AAE9BC /* ViceServices.swift */; };
-		E0E10A9B486BB962DAD645C0 /* ViceFeatureExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E10DE4743AB963942E0BE7 /* ViceFeatureExtractor.swift */; };
+		E0E10A9B486BB962DAD645C0 /* FeatureExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E10DE4743AB963942E0BE7 /* FeatureExtractor.swift */; };
+		E0E10AA085E5FFDC16A3F801 /* EnvironmentFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E10980B7572A63289AEC39 /* EnvironmentFeatures.swift */; };
+		E0E10B47112D36CF046EF8AD /* EnvironmentFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E10980B7572A63289AEC39 /* EnvironmentFeatures.swift */; };
 		E0E10D333E396060AD5C2DB1 /* ViceServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E101C180FE011A81AAE9BC /* ViceServices.swift */; };
 		ECBA5BDC2507BAC642192688 /* Pods_BestIntentions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB448511639064575FD48786 /* Pods_BestIntentions.framework */; };
 /* End PBXBuildFile section */
@@ -152,7 +154,8 @@
 		D13990D6CE01BD16F7B5EE11 /* Pods_BestIntentions_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BestIntentions_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A14C639D4DCB8A6A880BBA /* libPods-BestIntentions WatchKit App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BestIntentions WatchKit App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E101C180FE011A81AAE9BC /* ViceServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViceServices.swift; sourceTree = "<group>"; };
-		E0E10DE4743AB963942E0BE7 /* ViceFeatureExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViceFeatureExtractor.swift; sourceTree = "<group>"; };
+		E0E10980B7572A63289AEC39 /* EnvironmentFeatures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentFeatures.swift; sourceTree = "<group>"; };
+		E0E10DE4743AB963942E0BE7 /* FeatureExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureExtractor.swift; sourceTree = "<group>"; };
 		EC685D73A884C7E1416E2ECC /* Pods-BestIntentions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestIntentions.release.xcconfig"; path = "Pods/Target Support Files/Pods-BestIntentions/Pods-BestIntentions.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -230,7 +233,8 @@
 				540A46FA1DEAFC0800E542FD /* Model.swift */,
 				540A46FD1DEB349900E542FD /* MarkovChain.swift */,
 				E0E101C180FE011A81AAE9BC /* ViceServices.swift */,
-				E0E10DE4743AB963942E0BE7 /* ViceFeatureExtractor.swift */,
+				E0E10DE4743AB963942E0BE7 /* FeatureExtractor.swift */,
+				E0E10980B7572A63289AEC39 /* EnvironmentFeatures.swift */,
 			);
 			name = BestIntentionsFramework;
 			sourceTree = "<group>";
@@ -814,7 +818,8 @@
 				540A47071DEB392400E542FD /* MarkovChainTests.swift in Sources */,
 				540A470C1DEC324C00E542FD /* MarkovChain.swift in Sources */,
 				E0E108DA5C932B9BEB7BE89B /* ViceServices.swift in Sources */,
-				E0E102C1D8511B8F3B1C1F65 /* ViceFeatureExtractor.swift in Sources */,
+				E0E102C1D8511B8F3B1C1F65 /* FeatureExtractor.swift in Sources */,
+				E0E10B47112D36CF046EF8AD /* EnvironmentFeatures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -827,7 +832,8 @@
 				543CA2231DE200C900C23D4C /* AppDelegate.swift in Sources */,
 				540A46FE1DEB349900E542FD /* MarkovChain.swift in Sources */,
 				E0E10D333E396060AD5C2DB1 /* ViceServices.swift in Sources */,
-				E0E10A9B486BB962DAD645C0 /* ViceFeatureExtractor.swift in Sources */,
+				E0E10A9B486BB962DAD645C0 /* FeatureExtractor.swift in Sources */,
+				E0E10AA085E5FFDC16A3F801 /* EnvironmentFeatures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -858,7 +864,7 @@
 				543CA25E1DE200CA00C23D4C /* InterfaceController.swift in Sources */,
 				540A46FF1DEB349900E542FD /* MarkovChain.swift in Sources */,
 				E0E105785C45D6FA38532791 /* ViceServices.swift in Sources */,
-				E0E1050034480D070C699161 /* ViceFeatureExtractor.swift in Sources */,
+				E0E1050034480D070C699161 /* FeatureExtractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -49,7 +49,7 @@ struct KnownLocation {
     var coordinate: LocationCoordinate
 }
 
-fileprivate protocol EnvironmentSource {
+protocol EnvironmentSource {
 
     func location() -> KnownLocation
 
@@ -61,7 +61,7 @@ fileprivate protocol EnvironmentSource {
 
 }
 
-fileprivate class EnvironmentFeatureExtractor : FeatureExtractor {
+class EnvironmentFeatureExtractor : FeatureExtractor {
     private let environmentSource: EnvironmentSource
 
     init(environmentSource: EnvironmentSource) {
@@ -81,7 +81,11 @@ fileprivate class EnvironmentFeatureExtractor : FeatureExtractor {
 fileprivate extension HKActivitySummary /* : FeatureExtractor */ {
 
     var features: Features {
-        return []
+        let ae = Float((0.5 * activeEnergyBurned.doubleValue(for: HKUnit.calorie())) / activeEnergyBurnedGoal.doubleValue(for: HKUnit.calorie()))
+        let et = Float((0.5 * appleExerciseTime.doubleValue(for: HKUnit.hour())) / appleExerciseTimeGoal.doubleValue(for: HKUnit.hour()))
+        let st = Float((0.5 * appleStandHours.doubleValue(for: HKUnit.count())) / appleStandHoursGoal.doubleValue(for: HKUnit.count()))
+
+        return [max(1.0, ae), max(1.0, st), max(1.0, et)]
     }
 
 }
@@ -135,7 +139,8 @@ fileprivate extension Weather {
     var features: Features {
         let min = -100.0
         let max = 100.0
-        return [Float((temperature.converted(to: UnitTemperature.celsius).value - min) / (max - min))] + overall.features
+        let t = Float((temperature.converted(to: UnitTemperature.celsius).value - min) / (max - min))
+        return [min(-1.0, max(1.0, t))] + overall.features
     }
 
 }

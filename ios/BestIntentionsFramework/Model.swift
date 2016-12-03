@@ -46,3 +46,5 @@ protocol LocationCoordinate {
     var latitude: CLLocationDegrees { get }
     var longitude: CLLocationDegrees { get }
 }
+
+extension CLLocationCoordinate2D : LocationCoordinate { }

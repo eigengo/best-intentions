@@ -137,9 +137,9 @@ fileprivate extension LocationCoordinate /*: FeatureExtractor */ {
 fileprivate extension Weather {
 
     var features: Features {
-        let min = -100.0
-        let max = 100.0
-        let t = Float((temperature.converted(to: UnitTemperature.celsius).value - min) / (max - min))
+        let minValue = -100.0
+        let maxValue = 100.0
+        let t = Float((temperature.converted(to: UnitTemperature.celsius).value - minValue) / (maxValue - minValue))
         return [min(-1.0, max(1.0, t))] + overall.features
     }
 
